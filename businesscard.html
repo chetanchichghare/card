@@ -1,14 +1,20 @@
 <html>
     <head>
         <style>
+            body {
+                background: url("https://media.istockphoto.com/photos/grunge-purple-background-picture-id171159522?b=1&k=20&m=171159522&s=170667a&w=0&h=ulyWop7m--SaoIdLo8JkqBbv9InJaMvcdjaLPrWOx2c=");
+            }
             #card {
-                border: 3px solid black;
+                
                 width: 300px;
-                height: 500px;
+                background-color: black;
                 margin: 30px auto;
+                padding-bottom: 20px;
             }
              #section1 {
                 text-align: center;
+                background-color: whitesmoke;
+                padding: 30px;
             }
             img {
                 border-radius: 50%;
@@ -16,20 +22,60 @@
                 padding: 6px;
                 margin-top: 20px;
             }
+            h2 {
+                margin-bottom: 0px;
+            }
+            p {
+                margin: 0px;
+            }
+            #section3 {
+                margin-top: 30px;
+                text-align: center;
+            }
+            table {
+                width: 100%;
+                color: cornsilk;
+            }
+            button {
+                background-color: cornsilk;
+                padding: 10px;
+                width: 40%;
+            }
         </style>
     </head>
 
 <body>
-    <div id="card">Card</div>
+    <div id="card">
     <div id="section1">
         <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--V0ekZaVJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/h68x0up43hmknl5tjcww.jpg" height="200px" width="200px" />
         <h2>ChetAn ChichGhare</h2>
-        <p>Software Developer</p>
+        <p id="p1">Software Developer</p>
     </div>
     
-    <div id="section2"></div>
+    <div id="section2">
+        <table>
+            <tr>
+                <th>
+                    <p>108</p>
+                    <p>Posts</p>
+                </th>
+                <th> <p>55</p>
+                    <p>Follower</p>
+                </th>
+                <th>
+                    <p>154</p>
+                    <p>Following</p>
+                </th>
+            </tr>
+        </table>
+    </div>
 
-    <div id="section3"></div>
+    <div id="section3">
+        <button id="b1">Follow</button>
+
+        <button id="b2">Massage</button>
+    </div>
+    </div>
 </body>
 
 </html>
